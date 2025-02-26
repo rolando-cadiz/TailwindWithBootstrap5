@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tailwind</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    </head>
+
+<body>
+    <main>
+        <header>
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid d-flex">
+                   
+                  <img src="data:image/png;base64,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" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                    Tailwindcss
+                    <div class="d-flex align-items-center"></div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          v4.0
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">v3.4.17</a></li>
+                          <li><a class="dropdown-item" href="#">v2.2.19</a></li>
+                          <li><a class="dropdown-item" href="#">1.9.6</a></li>
+                          <li><a class="dropdown-item" href="#">0.7.4</a></li>
+                        </ul>
+                      </li>
+                    </div>
+                    <div class="ms-auto me-5 p-1">
+                    <ul style="color: black;" class="nav d-flex align-items-center">
+                        <li class="nav-item"><i class="bi bi-search"></i></li>
+                        <li class="nav-item"><a class="nav-link" href="#" style="color: black;">Docs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" style="color: black;">Components</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" style="color: black;">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" style="color: black;">Showcase</a></li>
+                        <li class="nav-item"><i class="bi bi-person" style="color: black;"></i></li>
+                    </ul>
+                </div>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 style="font-size: 60px;" class="text-4xl font-bold">Rapid build modern websites
+                            without ever leaving your HTML.
+                        </h1>
+                        <section>
+                            <div class="container">
+                            <div class="row">
+                                <p style="font-size: 24px;">
+                                    A utility-first CSS framework packed with classes like 
+                                    flex, pt-4,text-center and rotate-90 that can be composed 
+                                    to build any design, directly in your markup.
+                                </p>
+                               </div>
+                            </div>
+                        </section>
+                        <section>
+                            <nav class="navbar navbar-light bg-light">
+                                <div class="container-fluid">
+                                    
+                                  <form class="d-flex">
+                                    Get started
+                                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="">
+                                    <button class="btn btn-outline-success" type="submit">ctrl K</button>
+                                  </form>
+                                </div>
+                              </nav>
+                        </section>
+                        <div class="row">
+                            
+                                <img src="https://pbs.twimg.com/tweet_video_thumb/EcZctNAXkAY7scO.jpg:large" alt="" class="img-fluid w-5000">
+                                
+                        </div>
+    </main>
+</body>
+
+
+</html>
